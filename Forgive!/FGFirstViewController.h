@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface FGFirstViewController : UIViewController
+@interface FGFirstViewController : UIViewController<UITextFieldDelegate>
 
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @end

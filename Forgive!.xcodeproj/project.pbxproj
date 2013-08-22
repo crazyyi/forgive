@@ -31,6 +31,11 @@
 		A38D980317BE167800F4197D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97CA17BE167700F4197D /* Foundation.framework */; };
 		A38D980B17BE167800F4197D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A38D980917BE167800F4197D /* InfoPlist.strings */; };
 		A38D980E17BE167800F4197D /* Forgive_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D980D17BE167800F4197D /* Forgive_Tests.m */; };
+		A38D981917BE17DC00F4197D /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D981817BE17DC00F4197D /* UIColor+Colours.m */; };
+		A38D981A17BE17DC00F4197D /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D981817BE17DC00F4197D /* UIColor+Colours.m */; };
+		A38D981D17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */; };
+		A38D981E17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */; };
+		A38D982017C5A3F800F4197D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D981F17C5A3F800F4197D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,10 @@
 		A38D980A17BE167800F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A38D980C17BE167800F4197D /* Forgive_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forgive_Tests.h; sourceTree = "<group>"; };
 		A38D980D17BE167800F4197D /* Forgive_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forgive_Tests.m; sourceTree = "<group>"; };
+		A38D981717BE17DC00F4197D /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
+		A38D981817BE17DC00F4197D /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
+		A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Forgive!.xcdatamodel"; sourceTree = "<group>"; };
+		A38D981F17C5A3F800F4197D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,7 @@
 			files = (
 				A38D97C917BE167700F4197D /* UIKit.framework in Frameworks */,
 				A38D97CB17BE167700F4197D /* Foundation.framework in Frameworks */,
+				A38D982017C5A3F800F4197D /* CoreData.framework in Frameworks */,
 				A38D97CD17BE167700F4197D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +133,7 @@
 		A38D97C717BE167700F4197D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A38D981F17C5A3F800F4197D /* CoreData.framework */,
 				A38D97C817BE167700F4197D /* UIKit.framework */,
 				A38D97CA17BE167700F4197D /* Foundation.framework */,
 				A38D97CC17BE167700F4197D /* CoreGraphics.framework */,
@@ -134,6 +145,7 @@
 		A38D97CE17BE167700F4197D /* Forgive! */ = {
 			isa = PBXGroup;
 			children = (
+				A38D981B17BE17E400F4197D /* colors */,
 				A38D97D717BE167700F4197D /* FGAppDelegate.h */,
 				A38D97D817BE167700F4197D /* FGAppDelegate.m */,
 				A38D97E017BE167700F4197D /* FGFirstViewController.h */,
@@ -156,6 +168,7 @@
 		A38D97CF17BE167700F4197D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */,
 				A38D97D017BE167700F4197D /* Forgive!-Info.plist */,
 				A38D97D117BE167700F4197D /* InfoPlist.strings */,
 				A38D97D417BE167700F4197D /* main.m */,
@@ -184,6 +197,15 @@
 				A38D980917BE167800F4197D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A38D981B17BE17E400F4197D /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				A38D981717BE17DC00F4197D /* UIColor+Colours.h */,
+				A38D981817BE17DC00F4197D /* UIColor+Colours.m */,
+			);
+			name = colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +330,8 @@
 				A38D97D917BE167700F4197D /* FGAppDelegate.m in Sources */,
 				A38D97E217BE167700F4197D /* FGFirstViewController.m in Sources */,
 				A38D97E917BE167700F4197D /* FGSecondViewController.m in Sources */,
+				A38D981917BE17DC00F4197D /* UIColor+Colours.m in Sources */,
+				A38D981D17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A38D980E17BE167800F4197D /* Forgive_Tests.m in Sources */,
+				A38D981A17BE17DC00F4197D /* UIColor+Colours.m in Sources */,
+				A38D981E17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

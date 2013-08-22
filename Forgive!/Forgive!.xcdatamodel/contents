@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dialog">
+        <attribute name="detail" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="person_dialog" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="person_dialog" inverseEntity="Person" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Person" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person_dialog" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dialog" inverseName="person_dialog" inverseEntity="Dialog" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dialog" positionX="261" positionY="189" width="128" height="103"/>
+        <element name="Person" positionX="-2" positionY="375" width="128" height="73"/>
+    </elements>
+</model>

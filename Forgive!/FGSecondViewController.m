@@ -13,6 +13,7 @@
 @end
 
 @implementation FGSecondViewController
+@synthesize managedObjectContext;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

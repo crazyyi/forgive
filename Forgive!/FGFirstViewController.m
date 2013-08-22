@@ -7,6 +7,7 @@
 //
 
 #import "FGFirstViewController.h"
+#import "UIColor+Colours.h"
 
 @interface FGFirstViewController ()
 
@@ -28,6 +29,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *superView = self.view;
+    superView.backgroundColor = [UIColor emeraldColor];
+
 }
 
 - (void)didReceiveMemoryWarning
