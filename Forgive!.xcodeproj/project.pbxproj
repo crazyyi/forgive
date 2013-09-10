@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32FD5A417CE330B00B6FED1 /* FGDialogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FD5A317CE330B00B6FED1 /* FGDialogTests.m */; };
+		A32FD5AE17CECA1E00B6FED1 /* FGFirstViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FD5AC17CEC9F500B6FED1 /* FGFirstViewControllerTests.m */; };
 		A38D97C917BE167700F4197D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97C817BE167700F4197D /* UIKit.framework */; };
 		A38D97CB17BE167700F4197D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97CA17BE167700F4197D /* Foundation.framework */; };
 		A38D97CD17BE167700F4197D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97CC17BE167700F4197D /* CoreGraphics.framework */; };
@@ -19,13 +21,11 @@
 		A38D97E217BE167700F4197D /* FGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D97E117BE167700F4197D /* FGFirstViewController.m */; };
 		A38D97E417BE167700F4197D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A38D97E317BE167700F4197D /* first.png */; };
 		A38D97E617BE167700F4197D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38D97E517BE167700F4197D /* first@2x.png */; };
-		A38D97E917BE167700F4197D /* FGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D97E817BE167700F4197D /* FGSecondViewController.m */; };
+		A38D97E917BE167700F4197D /* FGBrowseHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38D97E817BE167700F4197D /* FGBrowseHistoryController.m */; };
 		A38D97EB17BE167700F4197D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A38D97EA17BE167700F4197D /* second.png */; };
 		A38D97ED17BE167700F4197D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38D97EC17BE167700F4197D /* second@2x.png */; };
 		A38D97F017BE167700F4197D /* FGFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38D97EE17BE167700F4197D /* FGFirstViewController_iPhone.xib */; };
-		A38D97F317BE167700F4197D /* FGFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38D97F117BE167700F4197D /* FGFirstViewController_iPad.xib */; };
-		A38D97F617BE167800F4197D /* FGSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38D97F417BE167800F4197D /* FGSecondViewController_iPhone.xib */; };
-		A38D97F917BE167800F4197D /* FGSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38D97F717BE167800F4197D /* FGSecondViewController_iPad.xib */; };
+		A38D97F617BE167800F4197D /* FGBrowseHistoryController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38D97F417BE167800F4197D /* FGBrowseHistoryController_iPhone.xib */; };
 		A38D980117BE167800F4197D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D980017BE167800F4197D /* SenTestingKit.framework */; };
 		A38D980217BE167800F4197D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97C817BE167700F4197D /* UIKit.framework */; };
 		A38D980317BE167800F4197D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97CA17BE167700F4197D /* Foundation.framework */; };
@@ -36,6 +36,14 @@
 		A38D981D17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */; };
 		A38D981E17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */; };
 		A38D982017C5A3F800F4197D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D981F17C5A3F800F4197D /* CoreData.framework */; };
+		A38D982117C5DF9100F4197D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D97CC17BE167700F4197D /* CoreGraphics.framework */; };
+		A3B8937F17CF6B720069D741 /* FGBrowseHistoryControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B8937E17CF6B720069D741 /* FGBrowseHistoryControllerTests.m */; };
+		A3B8938217CF6CC90069D741 /* FGAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B8938117CF6CC90069D741 /* FGAppDelegateTests.m */; };
+		A3B8938817D038260069D741 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B8938617D038050069D741 /* OCMockitoIOS.framework */; };
+		A3B8938F17D058D40069D741 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B8938E17D058D30069D741 /* OCHamcrestIOS.framework */; };
+		A3E7618917DCB5E800EB28D7 /* FGDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E7618817DCB5E700EB28D7 /* FGDialog.m */; };
+		A3E7618C17DCB81F00EB28D7 /* FGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E7618B17DCB81F00EB28D7 /* FGPerson.m */; };
+		A3E7618F17DD76C500EB28D7 /* FGDialogStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E7618E17DD76C500EB28D7 /* FGDialogStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A32FD5A217CE330B00B6FED1 /* FGDialogTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDialogTests.h; sourceTree = "<group>"; };
+		A32FD5A317CE330B00B6FED1 /* FGDialogTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDialogTests.m; sourceTree = "<group>"; };
+		A32FD5AB17CEC9F500B6FED1 /* FGFirstViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGFirstViewControllerTests.h; path = "../Forgive!/FGFirstViewControllerTests.h"; sourceTree = "<group>"; };
+		A32FD5AC17CEC9F500B6FED1 /* FGFirstViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGFirstViewControllerTests.m; path = "../Forgive!/FGFirstViewControllerTests.m"; sourceTree = "<group>"; };
 		A38D97C517BE167700F4197D /* Forgive!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forgive!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38D97C817BE167700F4197D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A38D97CA17BE167700F4197D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,15 +78,13 @@
 		A38D97E117BE167700F4197D /* FGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGFirstViewController.m; sourceTree = "<group>"; };
 		A38D97E317BE167700F4197D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		A38D97E517BE167700F4197D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		A38D97E717BE167700F4197D /* FGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGSecondViewController.h; sourceTree = "<group>"; };
-		A38D97E817BE167700F4197D /* FGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSecondViewController.m; sourceTree = "<group>"; };
+		A38D97E717BE167700F4197D /* FGBrowseHistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGBrowseHistoryController.h; sourceTree = "<group>"; };
+		A38D97E817BE167700F4197D /* FGBrowseHistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGBrowseHistoryController.m; sourceTree = "<group>"; };
 		A38D97EA17BE167700F4197D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		A38D97EC17BE167700F4197D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		A38D97EF17BE167700F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FGFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		A38D97F217BE167700F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FGFirstViewController_iPad.xib; sourceTree = "<group>"; };
-		A38D97F517BE167800F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FGSecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		A38D97F817BE167800F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FGSecondViewController_iPad.xib; sourceTree = "<group>"; };
-		A38D97FF17BE167800F4197D /* Forgive!Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forgive!Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38D97F517BE167800F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FGBrowseHistoryController_iPhone.xib; sourceTree = "<group>"; };
+		A38D97FF17BE167800F4197D /* ForgiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForgiveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38D980017BE167800F4197D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A38D980817BE167800F4197D /* Forgive!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forgive!Tests-Info.plist"; sourceTree = "<group>"; };
 		A38D980A17BE167800F4197D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -84,6 +94,19 @@
 		A38D981817BE17DC00F4197D /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
 		A38D981C17C4F31F00F4197D /* Forgive!.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Forgive!.xcdatamodel"; sourceTree = "<group>"; };
 		A38D981F17C5A3F800F4197D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A3B8937D17CF6B720069D741 /* FGBrowseHistoryControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBrowseHistoryControllerTests.h; sourceTree = "<group>"; };
+		A3B8937E17CF6B720069D741 /* FGBrowseHistoryControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBrowseHistoryControllerTests.m; sourceTree = "<group>"; };
+		A3B8938017CF6CC90069D741 /* FGAppDelegateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAppDelegateTests.h; sourceTree = "<group>"; };
+		A3B8938117CF6CC90069D741 /* FGAppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegateTests.m; sourceTree = "<group>"; };
+		A3B8938317D022430069D741 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		A3B8938617D038050069D741 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockitoIOS.framework; path = "../../iOS opensource/OCMockito-0.23/OCMockitoIOS.framework"; sourceTree = "<group>"; };
+		A3B8938E17D058D30069D741 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "../../iOS opensource/OCMockito-0.23/OCHamcrest-1.9/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
+		A3E7618717DCB5E700EB28D7 /* FGDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDialog.h; sourceTree = "<group>"; };
+		A3E7618817DCB5E700EB28D7 /* FGDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDialog.m; sourceTree = "<group>"; };
+		A3E7618A17DCB81F00EB28D7 /* FGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPerson.h; sourceTree = "<group>"; };
+		A3E7618B17DCB81F00EB28D7 /* FGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPerson.m; sourceTree = "<group>"; };
+		A3E7618D17DD76C400EB28D7 /* FGDialogStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDialogStore.h; sourceTree = "<group>"; };
+		A3E7618E17DD76C500EB28D7 /* FGDialogStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDialogStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B8938817D038260069D741 /* OCMockitoIOS.framework in Frameworks */,
+				A3B8938F17D058D40069D741 /* OCHamcrestIOS.framework in Frameworks */,
+				A38D982117C5DF9100F4197D /* CoreGraphics.framework in Frameworks */,
 				A38D980117BE167800F4197D /* SenTestingKit.framework in Frameworks */,
 				A38D980217BE167800F4197D /* UIKit.framework in Frameworks */,
 				A38D980317BE167800F4197D /* Foundation.framework in Frameworks */,
@@ -115,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				A38D97CE17BE167700F4197D /* Forgive! */,
-				A38D980617BE167800F4197D /* Forgive!Tests */,
+				A38D980617BE167800F4197D /* ForgiveTests */,
 				A38D97C717BE167700F4197D /* Frameworks */,
 				A38D97C617BE167700F4197D /* Products */,
 			);
@@ -125,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A38D97C517BE167700F4197D /* Forgive!.app */,
-				A38D97FF17BE167800F4197D /* Forgive!Tests.octest */,
+				A38D97FF17BE167800F4197D /* ForgiveTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +159,8 @@
 		A38D97C717BE167700F4197D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3B8938E17D058D30069D741 /* OCHamcrestIOS.framework */,
+				A3B8938617D038050069D741 /* OCMockitoIOS.framework */,
 				A38D981F17C5A3F800F4197D /* CoreData.framework */,
 				A38D97C817BE167700F4197D /* UIKit.framework */,
 				A38D97CA17BE167700F4197D /* Foundation.framework */,
@@ -145,21 +173,26 @@
 		A38D97CE17BE167700F4197D /* Forgive! */ = {
 			isa = PBXGroup;
 			children = (
+				A3B8938317D022430069D741 /* Logging.h */,
 				A38D981B17BE17E400F4197D /* colors */,
 				A38D97D717BE167700F4197D /* FGAppDelegate.h */,
 				A38D97D817BE167700F4197D /* FGAppDelegate.m */,
 				A38D97E017BE167700F4197D /* FGFirstViewController.h */,
 				A38D97E117BE167700F4197D /* FGFirstViewController.m */,
+				A3E7618717DCB5E700EB28D7 /* FGDialog.h */,
+				A3E7618817DCB5E700EB28D7 /* FGDialog.m */,
+				A3E7618A17DCB81F00EB28D7 /* FGPerson.h */,
+				A3E7618B17DCB81F00EB28D7 /* FGPerson.m */,
+				A3E7618D17DD76C400EB28D7 /* FGDialogStore.h */,
+				A3E7618E17DD76C500EB28D7 /* FGDialogStore.m */,
 				A38D97E317BE167700F4197D /* first.png */,
 				A38D97E517BE167700F4197D /* first@2x.png */,
-				A38D97E717BE167700F4197D /* FGSecondViewController.h */,
-				A38D97E817BE167700F4197D /* FGSecondViewController.m */,
+				A38D97E717BE167700F4197D /* FGBrowseHistoryController.h */,
+				A38D97E817BE167700F4197D /* FGBrowseHistoryController.m */,
 				A38D97EA17BE167700F4197D /* second.png */,
 				A38D97EC17BE167700F4197D /* second@2x.png */,
 				A38D97EE17BE167700F4197D /* FGFirstViewController_iPhone.xib */,
-				A38D97F117BE167700F4197D /* FGFirstViewController_iPad.xib */,
-				A38D97F417BE167800F4197D /* FGSecondViewController_iPhone.xib */,
-				A38D97F717BE167800F4197D /* FGSecondViewController_iPad.xib */,
+				A38D97F417BE167800F4197D /* FGBrowseHistoryController_iPhone.xib */,
 				A38D97CF17BE167700F4197D /* Supporting Files */,
 			);
 			path = "Forgive!";
@@ -180,13 +213,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A38D980617BE167800F4197D /* Forgive!Tests */ = {
+		A38D980617BE167800F4197D /* ForgiveTests */ = {
 			isa = PBXGroup;
 			children = (
+				A32FD5AB17CEC9F500B6FED1 /* FGFirstViewControllerTests.h */,
+				A32FD5AC17CEC9F500B6FED1 /* FGFirstViewControllerTests.m */,
+				A3B8937D17CF6B720069D741 /* FGBrowseHistoryControllerTests.h */,
+				A3B8937E17CF6B720069D741 /* FGBrowseHistoryControllerTests.m */,
+				A3B8938017CF6CC90069D741 /* FGAppDelegateTests.h */,
+				A3B8938117CF6CC90069D741 /* FGAppDelegateTests.m */,
 				A38D980C17BE167800F4197D /* Forgive_Tests.h */,
 				A38D980D17BE167800F4197D /* Forgive_Tests.m */,
+				A32FD5A217CE330B00B6FED1 /* FGDialogTests.h */,
+				A32FD5A317CE330B00B6FED1 /* FGDialogTests.m */,
 				A38D980717BE167800F4197D /* Supporting Files */,
 			);
+			name = ForgiveTests;
 			path = "Forgive!Tests";
 			sourceTree = "<group>";
 		};
@@ -228,23 +270,25 @@
 			productReference = A38D97C517BE167700F4197D /* Forgive!.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A38D97FE17BE167800F4197D /* Forgive!Tests */ = {
+		A38D97FE17BE167800F4197D /* ForgiveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A38D981417BE167800F4197D /* Build configuration list for PBXNativeTarget "Forgive!Tests" */;
+			buildConfigurationList = A38D981417BE167800F4197D /* Build configuration list for PBXNativeTarget "ForgiveTests" */;
 			buildPhases = (
+				58AF17B96B7E4AFFAA83BE5E /* Check Pods Manifest.lock */,
 				A38D97FA17BE167800F4197D /* Sources */,
 				A38D97FB17BE167800F4197D /* Frameworks */,
 				A38D97FC17BE167800F4197D /* Resources */,
 				A38D97FD17BE167800F4197D /* ShellScript */,
+				4E532FE24A554E55BB497C2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				A38D980517BE167800F4197D /* PBXTargetDependency */,
 			);
-			name = "Forgive!Tests";
+			name = ForgiveTests;
 			productName = "Forgive!Tests";
-			productReference = A38D97FF17BE167800F4197D /* Forgive!Tests.octest */;
+			productReference = A38D97FF17BE167800F4197D /* ForgiveTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +314,7 @@
 			projectRoot = "";
 			targets = (
 				A38D97C417BE167700F4197D /* Forgive! */,
-				A38D97FE17BE167800F4197D /* Forgive!Tests */,
+				A38D97FE17BE167800F4197D /* ForgiveTests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,9 +333,7 @@
 				A38D97EB17BE167700F4197D /* second.png in Resources */,
 				A38D97ED17BE167700F4197D /* second@2x.png in Resources */,
 				A38D97F017BE167700F4197D /* FGFirstViewController_iPhone.xib in Resources */,
-				A38D97F317BE167700F4197D /* FGFirstViewController_iPad.xib in Resources */,
-				A38D97F617BE167800F4197D /* FGSecondViewController_iPhone.xib in Resources */,
-				A38D97F917BE167800F4197D /* FGSecondViewController_iPad.xib in Resources */,
+				A38D97F617BE167800F4197D /* FGBrowseHistoryController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +348,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4E532FE24A554E55BB497C2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ForgiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AF17B96B7E4AFFAA83BE5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		A38D97FD17BE167800F4197D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,9 +401,12 @@
 				A38D97D517BE167700F4197D /* main.m in Sources */,
 				A38D97D917BE167700F4197D /* FGAppDelegate.m in Sources */,
 				A38D97E217BE167700F4197D /* FGFirstViewController.m in Sources */,
-				A38D97E917BE167700F4197D /* FGSecondViewController.m in Sources */,
+				A38D97E917BE167700F4197D /* FGBrowseHistoryController.m in Sources */,
 				A38D981917BE17DC00F4197D /* UIColor+Colours.m in Sources */,
 				A38D981D17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */,
+				A3E7618917DCB5E800EB28D7 /* FGDialog.m in Sources */,
+				A3E7618C17DCB81F00EB28D7 /* FGPerson.m in Sources */,
+				A3E7618F17DD76C500EB28D7 /* FGDialogStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32FD5AE17CECA1E00B6FED1 /* FGFirstViewControllerTests.m in Sources */,
 				A38D980E17BE167800F4197D /* Forgive_Tests.m in Sources */,
 				A38D981A17BE17DC00F4197D /* UIColor+Colours.m in Sources */,
 				A38D981E17C4F31F00F4197D /* Forgive!.xcdatamodel in Sources */,
+				A32FD5A417CE330B00B6FED1 /* FGDialogTests.m in Sources */,
+				A3B8937F17CF6B720069D741 /* FGBrowseHistoryControllerTests.m in Sources */,
+				A3B8938217CF6CC90069D741 /* FGAppDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,28 +451,12 @@
 			name = FGFirstViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		A38D97F117BE167700F4197D /* FGFirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A38D97F217BE167700F4197D /* en */,
-			);
-			name = FGFirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		A38D97F417BE167800F4197D /* FGSecondViewController_iPhone.xib */ = {
+		A38D97F417BE167800F4197D /* FGBrowseHistoryController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A38D97F517BE167800F4197D /* en */,
 			);
-			name = FGSecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A38D97F717BE167800F4197D /* FGSecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A38D97F817BE167800F4197D /* en */,
-			);
-			name = FGSecondViewController_iPad.xib;
+			name = FGBrowseHistoryController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 		A38D980917BE167800F4197D /* InfoPlist.strings */ = {
@@ -432,7 +495,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +520,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,10 +531,16 @@
 		A38D981217BE167800F4197D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgive!/Forgive!-Prefix.pch";
 				INFOPLIST_FILE = "Forgive!/Forgive!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -479,10 +548,16 @@
 		A38D981317BE167800F4197D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgive!/Forgive!-Prefix.pch";
 				INFOPLIST_FILE = "Forgive!/Forgive!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -494,10 +569,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23\"",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23/OCHamcrest-1.9\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgive!/Forgive!-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Forgive!Tests/Forgive!Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Forgive!Tests\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -511,10 +595,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23\"",
+					"\"$(SRCROOT)/../../iOS opensource/OCMockito-0.23/OCHamcrest-1.9\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forgive!/Forgive!-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Forgive!Tests/Forgive!Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Forgive!Tests\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -540,14 +633,16 @@
 				A38D981317BE167800F4197D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A38D981417BE167800F4197D /* Build configuration list for PBXNativeTarget "Forgive!Tests" */ = {
+		A38D981417BE167800F4197D /* Build configuration list for PBXNativeTarget "ForgiveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A38D981517BE167800F4197D /* Debug */,
 				A38D981617BE167800F4197D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

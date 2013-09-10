@@ -24,9 +24,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testThatOCUnitWorks
 {
-    STFail(@"Unit tests are not implemented yet in Forgive!Tests");
+    STAssertTrue(YES, @"OCUnit should pass this test.");
 }
 
 @end

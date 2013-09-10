@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A38D97FE17BE167800F4197D"
-               BuildableName = "Forgive!Tests.octest"
-               BlueprintName = "Forgive!Tests"
+               BuildableName = "ForgiveTests.octest"
+               BlueprintName = "ForgiveTests"
                ReferencedContainer = "container:Forgive!.xcodeproj">
             </BuildableReference>
          </TestableReference>
